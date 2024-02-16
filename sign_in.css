@@ -1,9 +1,24 @@
-body{
-    
-    background-image:url(1648934320850.jpg) ;
-background-color: white;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover ;
+.box h1{
+    color: rgb(248, 232, 8);
+
+    text-align:center;
     font-family: Traditional Arabic;
+    font-weight: 700;
+}
+
+.box input[type="text"],
+.box input[type="password"]{
+    border: 0;
+    background: none;
+    display:block;
+    margin:20px auto;
+    text-align:center;
+    border:2px solid #fbff00;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition:1s;
+
 }
